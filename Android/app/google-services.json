@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "509843713129",
+    "firebase_url": "https://acenergy.firebaseio.com",
+    "project_id": "acenergy",
+    "storage_bucket": "acenergy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509843713129:android:c3cccb566b091f9d",
+        "android_client_info": {
+          "package_name": "com.example.Wireless_AC_Energy_Meter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509843713129-j4u9ib68j1buiqlb899hic76vv2p3cvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyI6bJhzziIFd0DhQS5nOOjR7WrlawVsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509843713129-j4u9ib68j1buiqlb899hic76vv2p3cvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

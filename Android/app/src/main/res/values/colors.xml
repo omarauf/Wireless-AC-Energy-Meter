@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#e44051</color>
+    <color name="colorAccentDark">#D81B60</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+
+    <color name="primaryColor">#fe485a</color>
+    <color name="primaryLightColor">#ff7e87</color>
+    <color name="primaryDarkColor">#c40031</color>
+    <color name="secondaryColor">#e91e63</color>
+    <color name="secondaryLightColor">#ff6090</color>
+    <color name="secondaryDarkColor">#b0003a</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+
+</resources>

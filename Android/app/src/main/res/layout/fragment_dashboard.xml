@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <CheckBox
+        android:id="@+id/check_type"
+        android:tag="text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="2"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_columnSpan="2"
+        android:text="auto"/>
+
+
+
+    <GridLayout
+        android:id="@+id/TimeGRID"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:rowCount="7"
+        android:columnCount="4"
+        android:layout_marginTop="10dp">
+
+        <!--First Column-->
+        <TextView
+            android:id="@+id/text_start_monday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="@string/Monday" />
+
+        <TextView
+            android:id="@+id/text_start_tuesday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/Tuesday" />
+
+        <TextView
+            android:id="@+id/text_start_wednesday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="@string/Wednesday" />
+
+        <TextView
+            android:id="@+id/text_start_thursday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:text="@string/Thursday" />
+
+        <TextView
+            android:id="@+id/text_start_friday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:text="@string/Friday" />
+
+        <TextView
+            android:id="@+id/text_start_saturday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:text="@string/Saturday" />
+
+        <TextView
+            android:id="@+id/text_start_sunday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:text="@string/Sunday" />
+
+        <!--Second Column-->
+
+        <TextView
+            android:id="@+id/start_monday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/start_tuesday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/start_wednesday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/start_thursday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/start_friday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/start_saturday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/start_sunday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_row="6"
+            android:text="12:30" />
+
+
+
+
+        <!--Third Column-->
+        <TextView
+            android:id="@+id/text_end_monday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:text="@string/Monday" />
+
+        <TextView
+            android:id="@+id/text_end_tuesday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="@string/Tuesday" />
+
+        <TextView
+            android:id="@+id/text_end_wednesday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:text="@string/Wednesday" />
+
+        <TextView
+            android:id="@+id/text_end_thursday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:text="@string/Thursday" />
+
+        <TextView
+            android:id="@+id/text_end_friday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_row="4"
+            android:text="@string/Friday" />
+
+        <TextView
+            android:id="@+id/text_end_saturday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_row="5"
+            android:text="@string/Saturday" />
+
+        <TextView
+            android:id="@+id/text_end_sunday"
+            android:tag="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_row="6"
+            android:text="@string/Sunday" />
+
+
+        <!--Fourth Column-->
+        <TextView
+            android:id="@+id/end_monday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/end_tuesday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/end_wednesday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_row="2"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/end_thursday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_row="3"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/end_friday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_row="4"
+            android:text="12:30" />
+
+        <TextView
+            android:id="@+id/end_saturday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_row="5"
+            android:text="12:30" />
+
+
+        <TextView
+            android:id="@+id/end_sunday"
+            android:tag="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_row="6"
+            android:text="12:30" />
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/start" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/end" />
+
+
+        <Button
+            android:id="@+id/btn_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="limit 12" />
+
+        <Button
+            android:id="@+id/btn_Clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Rest" />
+    </GridLayout>
+
+
+
+
+
+
+</LinearLayout>

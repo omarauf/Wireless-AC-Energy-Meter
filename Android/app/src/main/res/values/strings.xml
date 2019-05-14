@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Wireless_AC_Energy_Meter</string>
+    <string name="Bar_Chart_Demo">Bar Chart Demo</string>
+    <string name="Pie_Chart_Demo">Pie Chart Demo</string>
+
+
+    <string name="start">Start</string>
+    <string name="end">Stop</string>
+
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+
+    <string-array name="time">
+        <item>Energy</item>
+        <item>Price</item>
+        <item>Power</item>
+        <item>Current</item>
+        <item>Voltage</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
