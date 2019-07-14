@@ -47,7 +47,7 @@ Wireless AC Energy Meter app uses a number of open source projects to work prope
 * [Volley] - Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster.
 
 # CONCLUSION
-The device will allow the users to control their uses of electricity by providing a limit for how much energy will they use so the device will warn the users by email in case the limit has been exceeded. Moreover, the usage of electricity will be saved in the database as well it will be shown in the graph so the user will be more aware about how much he/she uses in the last month, week or day. the user will have the abilty to turn on/off the device over the internet
+The device will allow the users to control their uses of electricity by providing a limit for how much energy will they use so the device will warn the users by email in case the limit has been exceeded. Moreover, the usage of electricity will be saved in the database as well it will be shown in the graph so the user will be more aware about how much he/she uses in the last month, week or day. the user will have the ability to turn on/off the device over the internet
 
 
    [EmonLib]: <https://github.com/openenergymonitor/EmonLib/>
